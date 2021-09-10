@@ -1,8 +1,9 @@
 import React from 'react';
+import './styles.css';
 
 const Table: React.FC = () => {
   return (
-    <table>
+    <table id="users">
       <tr>
         <th>Name</th>
         <th>Email</th>
